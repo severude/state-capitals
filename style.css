@@ -1,4 +1,4 @@
-@import url('http://necolas.github.io/normalize.css/3.0.2/normalize.css');
+@import url('https://necolas.github.io/normalize.css/3.0.2/normalize.css');
 
 /*General*/
 body {
@@ -19,14 +19,14 @@ h1, h2, h3 {
 
 h1 {
   font-size: 1.8em;
-  margin: 60px 0 40px;
+  margin: 2em 0 1em;
 }
 
 h2 {
     font-size: 1em;
     font-weight: 300;
     margin: 0;
-    padding: 30px 0 10px 0;
+    padding: 0.75em 0;
 }
 p {
 	color: #8d9aa5;
