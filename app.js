@@ -46,7 +46,7 @@ var questions = [
   new Question("Which city is the capital of South Dakota?", ["Sioux Falls", "Rapid City", "Pierre"], "Pierre", "Pierre is the capital of South Dakota"),
   new Question("Which city is the capital of Tennessee?", ["Memphis", "Nashville", "Knoxville"], "Nashville", "Nashville is the capital of Tennessee"),
   new Question("Which city is the capital of Texas?", ["Houston", "Dallas", "Austin"], "Austin", "Austin is the capital of Texas"),
-  new Question("Which city is the capital of Utah?", ["Salt Lake City", "Provo", "Ogden"], "Salt Lake City", "Salt Lake City is the capital of Texas"),
+  new Question("Which city is the capital of Utah?", ["Salt Lake City", "Provo", "Ogden"], "Salt Lake City", "Salt Lake City is the capital of Utah"),
   new Question("Which city is the capital of Vermont?", ["Burlington", "Rutland", "Montpelier"], "Montpelier", "Montpelier is the capital of Vermont"),
   new Question("Which city is the capital of Virginia?", ["Virginia Beach", "Richmond", "Roanoke"], "Richmond", "Richmond is the capital of Virginia"),
   new Question("Which city is the capital of Washington?", ["Seattle", "Olympia", "Spokane"], "Olympia", "Olympia is the capital of Washington"),
