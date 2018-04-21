@@ -32,7 +32,9 @@ p {
 	color: #8d9aa5;
 	margin-bottom: .75em;
 }
-
+img {
+	width: 50%;
+}
 #quiz {
 	display: none;
 }
