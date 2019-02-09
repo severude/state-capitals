@@ -56,6 +56,7 @@ var questions = [
 ];
 var quiz = new Quiz(questions);
 var quizUI = new QuizUI();
+document.getElementById('quiz').style.display = 'none';
 
 var button = document.getElementById('btn');
 button.onclick = function() {

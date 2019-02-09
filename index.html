@@ -1,40 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-  <title>State Capital Challenge</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<body>
-  <div class="container">
-   <h1 id="summary">State Capital Challenge</h1>
-
-   <div id="intro">
-	  <img src="50-States.JPG">
-	  <h3>Prepare to have your knowledge tested of the United States state capitals.</h3>
-	  <button id="btn">Start Test</button>
-	</div>
-	  
- 	<div id="quiz">
-        <h2 id="question" class=""></h2>
-
+  <head>
+    <title>State Capital Challenge</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body  class="bg-light text-secondary">
+    <main class="container text-center">
+      <h1 id="summary" class="display-3 mt-5 mb-5">State Capital Challenge</h1>
+      <section id="intro">
+        <img class="img-fluid col-6 mb-5" src="50-States.JPG">
+        <h5 class="mb-4">Test your knowledge of the United States state capitals.</h5>
+        <button id="btn" class="btn btn-outline-secondary btn-lg pr-4 pl-4">Start Test</button>
+      </section>
+      <section id="quiz">
+        <h2 id="question" class="mb-5"></h2>
         <p id="choice0"></p>
-		<button id="guess0" class="">Select Answer</button>
-
+        <button id="guess0" class="btn btn-outline-secondary mb-3">Select Answer</button>
         <p id="choice1"></p>
-		<button id="guess1" class="">Select Answer</button>
-
+        <button id="guess1" class="btn btn-outline-secondary mb-3">Select Answer</button>
         <p id="choice2"></p>
-		<button id="guess2" class="">Select Answer</button>
-
-        <footer>
-            <p id="progress">Question x of y</p>
-        </footer>
-	 </div>
-	  
+        <button id="guess2" class="btn btn-outline-secondary mb-5">Select Answer</button>
+        <p id="progress">Question x of y</p>
+      </section>
+    </main>
     <script src="quiz.js"></script> 
     <script src="app.js"></script> 
-  </div>
-</body>
+  </body>
 </html>

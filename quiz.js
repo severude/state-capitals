@@ -47,6 +47,7 @@ QuizUI.prototype.populateIdWithHTML = function(id, text) {
 QuizUI.prototype.guessHandler = function(id, guess) {
     var button = document.getElementById(id);
     button.onclick = function() {
+      button.blur();
       quiz.guess(guess);
       quizUI.checkResult();
       quizUI.displayNext();
@@ -55,8 +56,8 @@ QuizUI.prototype.guessHandler = function(id, guess) {
 QuizUI.prototype.displayScore = function() {
 	var numCorrect = this.score;
 	var numTotal = quiz.currentQuestionIndex;
-    this.resultsSummary += "<h3>Test Completed</h3>";
-	this.resultsSummary += '<h3>You have finished the test with ' + numCorrect + ' out of ' +  numTotal + ' correct answers.</h3>';
+  this.resultsSummary += "<h3>Test Completed</h3>";
+	this.resultsSummary += '<h3 class="mb-5">You have finished the test with ' + numCorrect + ' out of ' +  numTotal + ' correct answers.</h3>';
 	document.getElementById('intro').style.display = 'block';
 	this.populateIdWithHTML("intro", this.resultsSummary);
     this.populateIdWithHTML("quiz", this.resultsHTML);
