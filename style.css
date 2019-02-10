@@ -1,6 +1,26 @@
+#summary {
+  font-size: 1.75em;
+}
+#question {
+  font-size: 1.5rem;
+}
 #choice0,
 #choice1,
 #choice2 {
-  font-size: 2.5em;
+  font-size: 1.75em;
   color: deepskyblue;
+}
+
+@media (min-width: 768px) {
+  #summary {
+    font-size: 3.5em;
+  }
+  #question {
+    font-size: 2rem;
+  }
+  #choice0,
+  #choice1,
+  #choice2 {
+    font-size: 2.5em;
+  }
 }
